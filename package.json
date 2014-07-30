@@ -1,0 +1,14 @@
+{
+    "name"        : "martinhartl.org Theme",
+    "version"     : "0.0.1",
+    "description" : "The theme behind martinhartl.org",
+    "author"      : "Martin Hartl",
+    "homepage"    : "http://martinhartl.org",
+    "forkOf"      : {
+        "name"        : "Readium",
+        "version"     : "2.0.0",
+        "description" : "Just a medium-like blogging platform.",
+        "author"      : "Sven Read",
+        "homepage"    : "http://www.svenread.com/readium"
+    }
+}

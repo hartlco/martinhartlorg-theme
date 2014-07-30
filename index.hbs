@@ -1,0 +1,66 @@
+
+{{!< default}}
+
+{{! The comment above "< default" means - insert everything in this file into
+    the {body} of the default.hbs template, which contains our header/footer. }}
+
+{{! The big featured header on the homepage, with the site logo and description }}
+
+<script>
+    (function ($) {
+        "use strict";
+    
+        $(document).ready(function(){
+    
+            var $window = $(window),
+                $image = $('.teaserimage-image');
+            $window.on('scroll', function() {
+                var top = $window.scrollTop();
+    
+                if (top < 0 || top > 1500) { return; }
+                $image
+                    .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+                    .css('opacity', 1-Math.max(top/700, 0));
+            });
+            $window.trigger('scroll');
+    
+        });
+    
+    }(jQuery));
+</script>
+
+{{! The main content area on the homepage }}
+<main class="content" role="main">
+    
+    <div class="cf frame">
+    {{#foreach posts}}
+        {{#if featured}}
+        {{else}}
+            <article class="{{post_class}}" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+                <div class="article-item">
+                    <header class="post-header">
+                        <h2 class="post-title" itemprop="name"><a href="{{url}}" itemprop="url">{{{title}}}</a></h2>
+                    </header>
+                    <section class="post-excerpt" itemprop="description">
+                        <p>{{excerpt characters="130"}}&hellip;</p>
+                    </section>
+                    <div class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> <span class="post-tags-set">{{tags prefix="on "}}</span></div>
+                </div>
+            </article>
+        {{/if}}
+    {{/foreach}}
+    </div>
+
+
+    {{!! After all the posts, we have the previous/next pagination links }}
+    {{pagination}}
+
+</main>
+
+<footer class="site-footer">
+    <a class="subscribe icon-feed" href="{{@blog.url}}/rss/"><span class="tooltip"> Subscribe!</span></a>
+    <div class="inner">
+         <section class="copyright">All content copyright <a href="{{@blog.url}}/">{{@blog.title}}</a> &copy; {{date format="YYYY"}} &bull; All rights reserved.</section>
+         <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org"> Ghost</a></section>
+    </div>
+</footer>
