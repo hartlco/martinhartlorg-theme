@@ -3,6 +3,7 @@
 .svn
 vendor
 node_modules
+npm-debug.log
 .sass-cache
 assets/fonts/FontAwesome.otf
 assets/fonts/fontawesome-webfont.eot
