@@ -54,17 +54,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/img\/readium-logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 24518,
-		"inputAbbreviatedPath": "\/assets\/img\/readium-logo.png",
-		"outputAbbreviatedPath": "\/assets\/img\/readium-logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/js\/highlight.pack.js": {
 		"fileType": 64,
 		"ignore": 0,

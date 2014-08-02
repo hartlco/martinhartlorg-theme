@@ -420,6 +420,13 @@ body {
       line-height: 1.1;
       color: #333332;
       margin-bottom: 16px;
+      a {
+        color: #333332;
+      }
+      a:hover {
+        text-decoration: none;
+        color: $tint;
+      }
     }
     .author-image {
       display: inline-block;
