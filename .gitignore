@@ -4,6 +4,7 @@
 vendor
 node_modules
 npm-debug.log
+config.codekit
 .sass-cache
 assets/fonts/FontAwesome.otf
 assets/fonts/fontawesome-webfont.eot
