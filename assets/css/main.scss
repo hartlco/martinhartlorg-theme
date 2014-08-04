@@ -1,6 +1,6 @@
 @import "bourbon";
 @import url(http://fonts.googleapis.com/css?family=Bree+Serif);
-@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
 
 .cf {
   @include clearfix;
@@ -8,8 +8,8 @@
 
 $rs: 16px;
 
-$font-postText: 'Pontano Sans', sans-serif;
-$font-sans: 'Pontano Sans', MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+$font-postText: 'Source Sans Pro', sans-serif;
+$font-sans: 'Source Sans Pro', sans-serif;
 $font-postTitle: 'Bree Serif', serif;
 
 $tint: #14B9D6;
