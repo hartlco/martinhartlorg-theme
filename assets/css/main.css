@@ -164,7 +164,7 @@ body {
   box-sizing: border-box; }
   @media only screen and (max-width: 800px) {
     .content {
-      padding: 0 32px; } }
+      padding: 0 1rem; } }
   .content article {
     padding: 40px 0;
     border-bottom: 1px solid #f2f2f0; }
@@ -293,11 +293,13 @@ body {
     font-weight: 700;
     font-style: normal;
     font-family: "Bree Serif", serif;
-    font-size: 60px;
+    font-size: 3rem;
     line-height: 1.1;
-    color: white;
-    margin-bottom: 16px;
-    text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5); }
+    margin-bottom: 16px; }
+    .post .article-image .post-title a {
+      color: white; }
+    .post .article-image .post-title a:hover {
+      text-decoration: none; }
   .post .article-image .author-image {
     display: inline-block;
     width: 30px;
@@ -312,7 +314,7 @@ body {
   .post .article-image .author-name {
     display: inline; }
   .post .article-image .post-meta-text {
-    color: rgba(255, 255, 255, 0.75);
+    color: white;
     letter-spacing: -0.02em;
     font-weight: 400;
     font-style: normal;
@@ -400,8 +402,8 @@ body {
   .post .post-content p {
     font-weight: 400;
     font-style: normal;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
     margin: 0;
     padding-bottom: 30px;
     color: #333333;
