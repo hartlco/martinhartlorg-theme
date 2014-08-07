@@ -413,6 +413,8 @@ body {
   .post .post-content a {
     color: #333333;
     text-decoration: underline; }
+  .post .post-content a:hover {
+    color: #14b9d6; }
   .post .post-content img {
     max-width: 100%;
     margin: 0 auto; }

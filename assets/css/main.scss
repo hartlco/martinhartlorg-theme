@@ -494,6 +494,10 @@ body {
       color: #333333;
       text-decoration: underline;
     }
+    
+    a:hover {
+      color: $tint;
+    }
     img {
       max-width: 100%;
       margin: 0 auto;
