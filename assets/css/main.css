@@ -491,10 +491,9 @@ body {
     margin: 0; }
     .post .post-content ul li, .post .post-content ol li {
       padding: 0;
-      font-weight: 400;
       font-style: normal;
-      font-size: 23px;
-      line-height: 30px;
+      line-height: 1.8rem;
+      font-size: 1.1rem;
       margin-left: 30px;
       margin-bottom: 12px;
       padding-top: 2px; }
