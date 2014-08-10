@@ -75,28 +75,6 @@ body {
   font-feature-settings: "liga", "dlig";
 }
 
-.logo-readium {
-  text-align: center;
-  position: fixed;
-  left: 10px;
-  top: 10px;
-  width: $rs * 3;
-  height: $rs * 3;
-  background-color: black;
-  overflow: hidden;
-  z-index: 99;
-  .logo {
-    display: block;
-    position: absolute;
-    top: $rs / 2;
-    left: $rs / 2;
-    width: $rs * 2;
-    height: $rs * 2;
-    background-image: url("/assets/img/readium-logo.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-}
 
 .teaserimage {
   height: 450px;
