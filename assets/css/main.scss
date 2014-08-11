@@ -175,7 +175,7 @@ body {
 
   article {
     padding: 40px 0;
-    border-bottom: 1px solid #f2f2f0;
+    border-bottom: 1px solid $tint;
     &:last-child {
       border-bottom: 0px;
     }
