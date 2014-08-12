@@ -395,6 +395,7 @@ body {
   .post .post-content a:hover {
     color: #14b9d6; }
   .post .post-content img {
+    padding-top: 40px;
     max-width: 100%;
     margin: 0 auto; }
   .post .post-content figure {
