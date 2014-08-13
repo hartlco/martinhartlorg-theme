@@ -410,33 +410,6 @@ body {
     outline: 0;
     z-index: 300;
     text-align: center; }
-  .post .post-content code {
-    background-color: #333333;
-    color: white;
-    border-color: #333333;
-    font-family: Inconsolata, monospace, sans-serif;
-    border-radius: 8px;
-    padding: 2px 4px 4px;
-    position: relative;
-    top: -3px;
-    white-space: nowrap;
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-    hyphens: none; }
-  .post .post-content pre > code {
-    background-color: #333333;
-    border-color: #333333;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 1.33rem 1.7689rem;
-    color: white;
-    line-height: 1.4;
-    width: 100%;
-    display: block;
-    white-space: pre;
-    overflow: auto;
-    border-radius: 8px; }
   .post .post-content pre {
     padding: 0;
     margin: 0 0 2rem;

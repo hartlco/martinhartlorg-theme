@@ -495,33 +495,6 @@ body {
       z-index: 300;
       text-align: center;
     }
-    code {
-      background-color: #333333;
-      color: white;
-      border-color: #333333;
-      font-family: Inconsolata, monospace, sans-serif;
-      border-radius: 8px;
-      padding: 2px 4px 4px;
-      position: relative;
-      top: -3px;
-      white-space: nowrap;
-      -webkit-hyphens: none;
-      -moz-hyphens: none;
-      hyphens: none;
-    }
-    pre > code {
-      background-color: #333333;
-      border-color: #333333;
-      @include box-sizing(border-box);
-      padding: modular-scale(1rem, 1, 1.33) modular-scale(1rem, 2, 1.33);
-      color: white;
-      line-height: 1.4;
-      width: 100%;
-      display: block;
-      white-space: pre;
-      overflow: auto;
-      border-radius: 8px;
-    }
     pre {
       padding: 0;
       margin: 0 0 2rem;
