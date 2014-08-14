@@ -174,7 +174,8 @@ body {
   }
 
   article {
-    padding: 40px 0;
+    padding-bottom: 40px;
+    padding-top: 80px;
     border-bottom: 1px solid $tint;
     &:last-child {
       border-bottom: 0px;
@@ -453,8 +454,6 @@ body {
       font-style: normal;
       font-size: 32px;
       line-height: 1.2;
-      padding-top: 8px;
-      margin-bottom: 10px;
     }
     p {
       font-weight: 400;
@@ -497,6 +496,7 @@ body {
     }
     pre {
       padding: 0;
+      padding-top: 40px;
       margin: 0 0 2rem;
       @include box-sizing(border-box);
     }

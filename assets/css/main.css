@@ -145,7 +145,8 @@ body {
     .content {
       padding: 0 1rem; } }
   .content article {
-    padding: 40px 0;
+    padding-bottom: 40px;
+    padding-top: 80px;
     border-bottom: 1px solid #14b9d6; }
     .content article:last-child {
       border-bottom: 0px; }
@@ -375,9 +376,7 @@ body {
     font-weight: 700;
     font-style: normal;
     font-size: 32px;
-    line-height: 1.2;
-    padding-top: 8px;
-    margin-bottom: 10px; }
+    line-height: 1.2; }
   .post .post-content p {
     font-weight: 400;
     font-style: normal;
@@ -412,6 +411,7 @@ body {
     text-align: center; }
   .post .post-content pre {
     padding: 0;
+    padding-top: 40px;
     margin: 0 0 2rem;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
