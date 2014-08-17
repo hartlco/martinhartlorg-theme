@@ -22,7 +22,6 @@ $tint: #14B9D6;
   }
 }
 
-/* Apply these base styles to all icons */
 .icon-ghost:before,
 .icon-feed:before,
 .icon-twitter:before,
@@ -39,7 +38,6 @@ $tint: #14B9D6;
   text-decoration: none;
 }
 
-/* Each icon is created by inserting the corret character into the content of the :before pseudo element. Like a boss. */
 .icon-ghost:before {
   content: "\e000";
   

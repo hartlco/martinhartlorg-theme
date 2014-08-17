@@ -11,7 +11,6 @@
   font-style: normal;
   src: url("../fonts/icons.eot");
   src: url("../fonts/icons.eot?#iefix") format("embedded-opentype"), url("../fonts/icons.woff") format("woff"), url("../fonts/icons.ttf") format("truetype"), url("../fonts/icons.svg#icons") format("svg"); }
-/* Apply these base styles to all icons */
 .icon-ghost:before,
 .icon-feed:before,
 .icon-twitter:before,
@@ -27,7 +26,6 @@
   -webkit-font-smoothing: antialiased;
   text-decoration: none; }
 
-/* Each icon is created by inserting the corret character into the content of the :before pseudo element. Like a boss. */
 .icon-ghost:before {
   content: "\e000"; }
 
