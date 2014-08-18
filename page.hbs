@@ -124,27 +124,16 @@
 
             </footer>
 
+
             <div class="bottom-teaser cf">
                 <div class="isLeft">
-                    <h5 class="index-headline featured"><span>Written by</span></h5>
                     <section class="author">
-                        <div class="author-image" style="background-image: url({{author.image}})">Blog Logo</div>
-                        <h4>{{author.name}}</h4>
-                        <p class="bio">{{author.bio}}</p>
-                        <hr>
-                        <p class="published">Published <time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD MMM YYYY'}}</time></p>
                     </section>
                 </div>
                 {{/post}}
                 <div class="isRight">
-                    <h5 class="index-headline featured"><span>Supported by</span></h5>
                     <footer class="site-footer">
-                        <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org"> Ghost</a></section>
-                        <a class="subscribe" href="{{@blog.url}}/rss/"><span class="tooltip">You should subscribe to my RSS feed.</span></a>
-                        <div class="inner">
-                             <section class="copyright">All content copyright <a href="{{@blog.url}}/">{{@blog.title}}</a> &copy; {{date format="YYYY"}}<br>All rights reserved.</section>
-
-                        </div>
+                             
                     </footer>
                 </div>
             </div>
@@ -152,14 +141,3 @@
     </article>
 
 </main>
-
-<div class="bottom-closer">
-    <div class="background-closer-image" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
-        Image
-    </div>
-    <div class="inner">
-        <h1 class="blog-title">{{@blog.title}}</h1>
-        <h2 class="blog-description">{{@blog.description}}</h2>
-        <a href="/" class="btn">Back to Overview</a>
-    </div>
-</div>
