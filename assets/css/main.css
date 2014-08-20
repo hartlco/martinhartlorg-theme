@@ -433,9 +433,9 @@ body {
       letter-spacing: 0.01rem;
       font-weight: 400;
       font-style: italic;
-      border-left: 3px solid #57ad68;
+      border-left: 3px solid #aaaaaa;
       padding-left: 20px;
-      margin-left: -26px;
+      margin-left: 0px;
       padding-bottom: 3px; }
   .post .post-content ul, .post .post-content ol {
     padding: 0 0 30px;
