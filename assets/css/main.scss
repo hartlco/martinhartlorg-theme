@@ -185,7 +185,7 @@ body {
       display: block;
       font-size: 3rem;
       line-height: 1.1;
-      margin: 0 0;
+      margin-bottom: 25px;
       a {
         text-decoration: none;
         color: #333332;
@@ -327,7 +327,7 @@ body {
       font-family: $font-postTitle;
       font-size: 3rem;
       line-height: 1.1;
-      margin-bottom: 16px;
+      margin-bottom: 40px;
       a {
         color: white;
       }
@@ -392,7 +392,7 @@ body {
       font-size: 3rem;
       line-height: 1.1;
       color: #333332;
-      margin-bottom: 16px;
+      margin-bottom: 40px;
       a {
         color: #333332;
       }
@@ -474,7 +474,6 @@ body {
       color: $tint;
     }
     img {
-      padding-top: 40px;
       max-width: 100%;
       margin: 0 auto;
     }
@@ -494,7 +493,6 @@ body {
     }
     pre {
       padding: 0;
-      padding-top: 40px;
       margin: 0 0 2rem;
       @include box-sizing(border-box);
     }

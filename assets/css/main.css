@@ -155,7 +155,7 @@ body {
       display: block;
       font-size: 3rem;
       line-height: 1.1;
-      margin: 0 0; }
+      margin-bottom: 25px; }
       .content article .post-title a {
         text-decoration: none;
         color: #333332; }
@@ -273,7 +273,7 @@ body {
     font-family: "Bree Serif", serif;
     font-size: 3rem;
     line-height: 1.1;
-    margin-bottom: 16px; }
+    margin-bottom: 40px; }
     .post .article-image .post-title a {
       color: white; }
     .post .article-image .post-title a:hover {
@@ -324,7 +324,7 @@ body {
   font-size: 3rem;
   line-height: 1.1;
   color: #333332;
-  margin-bottom: 16px; }
+  margin-bottom: 40px; }
   .post .noarticleimage .post-title a {
     color: #333332; }
   .post .noarticleimage .post-title a:hover {
@@ -392,7 +392,6 @@ body {
   .post .post-content a:hover {
     color: #14b9d6; }
   .post .post-content img {
-    padding-top: 40px;
     max-width: 100%;
     margin: 0 auto; }
   .post .post-content figure {
@@ -409,7 +408,6 @@ body {
     text-align: center; }
   .post .post-content pre {
     padding: 0;
-    padding-top: 40px;
     margin: 0 0 2rem;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
