@@ -130,7 +130,7 @@ body {
     }
     margin: 0;
     padding: $rs * 2 $rs $rs / 2;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     text-align: center;
     font-weight: 700;
     letter-spacing: -2px;
@@ -173,7 +173,7 @@ body {
 
   article {
     padding-bottom: 40px;
-    padding-top: 80px;
+    padding-top: 40px;
     border-bottom: 1px solid $tint;
     &:last-child {
       border-bottom: 0px;
@@ -183,15 +183,15 @@ body {
       font-family: $font-postTitle;
       font-style: normal;
       display: block;
-      font-size: 3rem;
+      font-size: 2.2rem;
       line-height: 1.1;
       margin-bottom: 25px;
       a {
+        color:$tint;
         text-decoration: none;
-        color: #333332;
         &:hover {
           text-decoration: none;
-          color:$tint;
+          color:#666666;
         }
       }
     }
@@ -325,7 +325,7 @@ body {
       font-weight: 700;
       font-style: normal;
       font-family: $font-postTitle;
-      font-size: 3rem;
+      font-size: 2rem;
       line-height: 1.1;
       margin-bottom: 40px;
       a {
@@ -450,7 +450,7 @@ body {
       letter-spacing: -0.02em;
       font-weight: 700;
       font-style: normal;
-      font-size: 32px;
+      font-size: 1.6rem;
       line-height: 1.2;
     }
     p {

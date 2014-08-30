@@ -101,7 +101,7 @@ body {
   .blog-header .blog-title {
     margin: 0;
     padding: 32px 16px 8px;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     text-align: center;
     font-weight: 700;
     letter-spacing: -2px;
@@ -144,7 +144,7 @@ body {
       padding: 0 1rem; } }
   .content article {
     padding-bottom: 40px;
-    padding-top: 80px;
+    padding-top: 40px;
     border-bottom: 1px solid #14b9d6; }
     .content article:last-child {
       border-bottom: 0px; }
@@ -153,15 +153,15 @@ body {
       font-family: "Bree Serif", serif;
       font-style: normal;
       display: block;
-      font-size: 3rem;
+      font-size: 2.2rem;
       line-height: 1.1;
       margin-bottom: 25px; }
       .content article .post-title a {
-        text-decoration: none;
-        color: #333332; }
+        color: #14b9d6;
+        text-decoration: none; }
         .content article .post-title a:hover {
           text-decoration: none;
-          color: #14b9d6; }
+          color: #666666; }
     .content article .post-meta {
       font-size: 14px;
       color: #b3b3b1;
@@ -271,7 +271,7 @@ body {
     font-weight: 700;
     font-style: normal;
     font-family: "Bree Serif", serif;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.1;
     margin-bottom: 40px; }
     .post .article-image .post-title a {
@@ -373,7 +373,7 @@ body {
     letter-spacing: -0.02em;
     font-weight: 700;
     font-style: normal;
-    font-size: 32px;
+    font-size: 1.6rem;
     line-height: 1.2; }
   .post .post-content p {
     font-weight: 400;
