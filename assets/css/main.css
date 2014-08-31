@@ -145,7 +145,7 @@ body {
   .content article {
     padding-bottom: 40px;
     padding-top: 40px;
-    border-bottom: 1px solid #14b9d6; }
+    border-bottom: 1px solid #aaaaaa; }
     .content article:last-child {
       border-bottom: 0px; }
     .content article .post-title {
