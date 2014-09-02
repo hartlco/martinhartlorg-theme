@@ -144,7 +144,7 @@ body {
       padding: 0 1rem; } }
   .content article {
     padding-bottom: 40px;
-    padding-top: 40px;
+    padding-top: 10px;
     border-bottom: 1px solid #aaaaaa; }
     .content article:last-child {
       border-bottom: 0px; }
