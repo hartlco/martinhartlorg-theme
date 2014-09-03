@@ -394,11 +394,11 @@ body {
       color: #333332;
       margin-bottom: 40px;
       a {
-        color: #333332;
+        color: $tint;
       }
       a:hover {
         text-decoration: none;
-        color: $tint;
+        color:#666666;;
       }
     }
     .author-image {

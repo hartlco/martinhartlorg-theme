@@ -326,10 +326,10 @@ body {
   color: #333332;
   margin-bottom: 40px; }
   .post .noarticleimage .post-title a {
-    color: #333332; }
+    color: #14b9d6; }
   .post .noarticleimage .post-title a:hover {
     text-decoration: none;
-    color: #14b9d6; }
+    color: #666666; }
 .post .noarticleimage .author-image {
   display: inline-block;
   width: 30px;
