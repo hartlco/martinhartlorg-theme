@@ -2,8 +2,7 @@
 
 **This is a fork of [Sven Read's](https://github.com/starburst1977) awesome [Readium](https://github.com/starburst1977/readium) theme!**
 
-Live at [martinhartl.org](http://martinhartl.org) on [Ghost 0.4.2](http://ghost.org)
-
+Live at [martinhartl.org](http://martinhartl.org) on [Ghost 0.5.0](http://ghost.org). I call the current version of this theme version 1.0. There will be minor improvements, which will increase the version over time. Major redesign of my site will come with a major version number bump.
 ## Thanks to:
 
 - coming soon
