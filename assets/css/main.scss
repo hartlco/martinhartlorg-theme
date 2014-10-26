@@ -162,6 +162,10 @@ body {
   }
 }
 
+.link-post:after {
+  content: " ↳";
+}
+
 .content {
   width: 100%;
   max-width: 640px;

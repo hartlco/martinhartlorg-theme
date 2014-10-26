@@ -2,10 +2,43 @@
 
 **This is a fork of [Sven Read's](https://github.com/starburst1977) awesome [Readium](https://github.com/starburst1977/readium) theme!**
 
-Live at [martinhartl.org](http://martinhartl.org) on [Ghost 0.5.0](http://ghost.org). I call the current version of this theme version 1.0. There will be minor improvements, which will increase the version over time. Major redesign of my site will come with a major version number bump.
+Live at [martinhartl.org](http://martinhartl.org) on [Ghost 0.4.2](http://ghost.org)
+
+
+## Linkposts
+
+I manually added support for link posts using this guide: [http://roaringapps.com/blog/link-posts-in-ghost/](http://roaringapps.com/blog/link-posts-in-ghost/)
+
+In order to use link posts, add the following method to the core/server/helpers/index.js file of your Ghost installation
+
+```javascript
+coreHelpers.link = function (options) { 
+   console.log("register link helper") 
+    var txt = this.html,
+        hasLink = txt.indexOf('<!-- link[') >= 0;
+
+    if(hasLink) {
+        this.theLink = txt.substring(txt.indexOf('<!-- link[') + 10, txt.indexOf('] -->', txt.indexOf('<!-- link[')));
+        return options.fn(this);
+    }
+    else {
+        return options.inverse(this);
+    }
+};
+```
+
+and register it in the `registerHelpers` function:
+
+```javascript
+registerThemeHelper('link', coreHelpers.link); 
+```
+
+Now, if you want to create a link post, just add `<!-- link[http://example.com] -->` to your post content, to link to use the headline of your post to link to the site.
+
 ## Thanks to:
 
-- coming soon
+- Bryce Cameron at [Roaring Apps](http://roaringapps.com/) for the [linkpost guide](http://roaringapps.com)
+- rest coming soon
 
 ## License - MIT
 

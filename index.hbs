@@ -34,20 +34,22 @@
     
     <div class="cf frame">
     {{#foreach posts}}
-        {{#if featured}}
-        {{else}}
             <article class="{{post_class}}" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-                <div class="article-item">
-                    <header class="post-header">
-                        <h2 class="post-title" itemprop="name"><a href="{{url}}" itemprop="url">{{{title}}}</a></h2>
-                    </header>
-                    <div class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> <span class="post-tags-set">{{tags prefix="on "}}</span></div>
-                    <section class="post-content" itemprop="description">
-                        <p>{{content}}</p>
-                    </section>
-                </div>
+            
+            <div class="post {{post_class}}">
+                    
+                    <div class="article-item">
+                        <header class="post-header">
+                        
+                            <h2 class="post-title {{#link}}link-post{{/link}}" itemprop="name"><a href="{{#link}}{{theLink}}{{else}}{{url}}{{/link}}" itemprop="url">{{{title}}}</a></h2>
+                        </header>
+                        <div class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> <span class="post-tags-set">{{tags prefix="on "}}</span></div>
+                        <section class="post-content" itemprop="description">
+                            <p>{{content}}</p>
+                        </section>
+                    </div>
+            </div>
             </article>
-        {{/if}}
     {{/foreach}}
     </div>
 
