@@ -177,7 +177,7 @@ body {
 
   article {
     padding-bottom: 10px;
-    padding-top:20px;
+    padding-top:0px;
     border-bottom: 1px solid #aaaaaa;
     &:last-child {
       border-bottom: 0px;
@@ -387,7 +387,7 @@ body {
   .noarticleimage {
     .post-meta {
       font-family: $font-sans;
-      padding-top: 60px;
+      padding-top: 10px;
     }
     .post-title {
       font-weight: 700;
