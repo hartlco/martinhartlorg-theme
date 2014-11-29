@@ -87,11 +87,8 @@
         <div class="noarticleimage">
             <div class="post-meta">
             
-                {{#link}}
-                    <h1 class="post-title link-post"><a href="{theLink}}" itemprop="url">{{{title}}}</a></h1>
-                {{else}}
-                    <h1 class="post-title"><a href="{{url}}" itemprop="url">{{{title}}}</a></h1>
-                {{/link}}
+        
+                <h1 class="post-title link-post"><a href="{{#link}}{{theLink}}{{else}}{{url}}{{/link}}" itemprop="url">{{{title}}}</a></h1>                            
             
                 <div class="cf post-meta-text">
                     <div class="author-image" style="background-image: url({{author.image}})">Blog Logo</div>
