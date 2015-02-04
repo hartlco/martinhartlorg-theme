@@ -142,7 +142,7 @@ body {
   .blog-description {
     margin: 0 0 20px;
     padding: 0 $rs * 2;
-    font-size: $rs / 8 * 9;
+    font-size: 0.9rem;
     line-height: 1.5;
     color: #666666;
     text-align: center;
@@ -187,9 +187,9 @@ body {
       font-family: $font-postTitle;
       font-style: normal;
       display: block;
-      font-size: 2.2rem;
+      font-size: 1.8rem;
       line-height: 1.1;
-      margin-bottom: 25px;
+      margin-bottom: 10px;
       a {
         color:$tint;
         text-decoration: none;
@@ -202,7 +202,6 @@ body {
     .post-meta {
       font-size: 14px;
       color: #b3b3b1;
-      line-height: 30px;
       a {
         color: #b3b3b1;
         text-decoration: none;
@@ -393,10 +392,10 @@ body {
       font-weight: 700;
       font-style: normal;
       letter-spacing: -0.04em;
-      font-size: 3rem;
+      font-size: 1.8;
       line-height: 1.1;
       color: #333332;
-      margin-bottom: 40px;
+      margin-bottom: 10px;
       a {
         color: $tint;
       }
@@ -454,7 +453,7 @@ body {
       letter-spacing: -0.02em;
       font-weight: 700;
       font-style: normal;
-      font-size: 1.6rem;
+      font-size: 1.2rem;
       line-height: 1.2;
     }
     p {

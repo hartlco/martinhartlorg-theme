@@ -114,11 +114,11 @@ body {
       text-decoration: none;
       color: #000000; }
     .blog-header .blog-title a:hover {
-      color: #14b9d6; }
+      color: #14B9D6; }
   .blog-header .blog-description {
     margin: 0 0 20px;
     padding: 0 32px;
-    font-size: 18px;
+    font-size: 0.9rem;
     line-height: 1.5;
     color: #666666;
     text-align: center;
@@ -131,7 +131,7 @@ body {
       text-decoration: none;
       color: #999999; }
       .blog-header .custom-links a:hover {
-        color: #14b9d6; }
+        color: #14B9D6; }
 
 .link-post:after {
   content: " ↳"; }
@@ -157,19 +157,18 @@ body {
       font-family: "Bree Serif", serif;
       font-style: normal;
       display: block;
-      font-size: 2.2rem;
+      font-size: 1.8rem;
       line-height: 1.1;
-      margin-bottom: 25px; }
+      margin-bottom: 10px; }
       .content article .post-title a {
-        color: #14b9d6;
+        color: #14B9D6;
         text-decoration: none; }
         .content article .post-title a:hover {
           text-decoration: none;
           color: #666666; }
     .content article .post-meta {
       font-size: 14px;
-      color: #b3b3b1;
-      line-height: 30px; }
+      color: #b3b3b1; }
       .content article .post-meta a {
         color: #b3b3b1;
         text-decoration: none; }
@@ -325,12 +324,12 @@ body {
   font-weight: 700;
   font-style: normal;
   letter-spacing: -0.04em;
-  font-size: 3rem;
+  font-size: 1.8;
   line-height: 1.1;
   color: #333332;
-  margin-bottom: 40px; }
+  margin-bottom: 10px; }
   .post .noarticleimage .post-title a {
-    color: #14b9d6; }
+    color: #14B9D6; }
   .post .noarticleimage .post-title a:hover {
     text-decoration: none;
     color: #666666; }
@@ -377,7 +376,7 @@ body {
     letter-spacing: -0.02em;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     line-height: 1.2; }
   .post .post-content p {
     font-weight: 400;
@@ -394,7 +393,7 @@ body {
     color: #333333;
     text-decoration: underline; }
   .post .post-content a:hover {
-    color: #14b9d6; }
+    color: #14B9D6; }
   .post .post-content img {
     max-width: 100%;
     margin: 0 auto; }
