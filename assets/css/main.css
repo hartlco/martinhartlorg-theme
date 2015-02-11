@@ -357,6 +357,7 @@ body {
   white-space: nowrap;
   text-overflow: ellipsis; }
 .post .post-content {
+  margin-top: 10px;
   width: 100%;
   font-weight: 500;
   font-family: "museo-sans", "Source Sans Pro", sans-serif;
