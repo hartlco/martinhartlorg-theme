@@ -1,6 +1,5 @@
 @import "bourbon";
 @import url(http://fonts.googleapis.com/css?family=Bree+Serif);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
 
 .cf {
   @include clearfix;
@@ -10,7 +9,7 @@ $rs: 16px;
 
 $font-postText:"museo-sans", 'Source Sans Pro', sans-serif;
 $font-sans:"museo-sans", 'Source Sans Pro', sans-serif;
-$font-postTitle: 'Bree Serif', serif;
+$font-postTitle: "museo-sans-condensed", Source Sans Pro, sans-serif;
 
 $tint: #14B9D6;
 
