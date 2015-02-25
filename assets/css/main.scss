@@ -1,5 +1,5 @@
 @import "bourbon";
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
 
 .cf {
   @include clearfix;
@@ -7,9 +7,9 @@
 
 $rs: 16px;
 
-$font-postText:"museo-sans", 'Source Sans Pro', sans-serif;
+$font-postText:'Merriweather', serif;
 $font-sans:"museo-sans", 'Source Sans Pro', sans-serif;
-$font-postTitle: "museo-sans-condensed", Source Sans Pro, sans-serif;
+$font-postTitle: "museo-sans", Source Sans Pro, sans-serif;
 
 $tint: #14B9D6;
 
@@ -167,7 +167,7 @@ body {
 
 .content {
   width: 100%;
-  max-width: 640px;
+  max-width: 720px;
   margin: 0 auto;
   @include box-sizing(border-box);
   @include respond-to(800) {
@@ -435,7 +435,7 @@ body {
     width: 100%;
     font-weight: 500;
     font-family: $font-postText;
-    color: #333333;
+    color: #3A4145;
     h1, h2, h3 {
       font-family: $font-sans;
     }
@@ -459,8 +459,8 @@ body {
     p {
       font-weight: 400;
       font-style: normal;
-      font-size: 1.0rem;
-      line-height: 1.5rem;
+      font-size: 18px;
+      line-height: 33px;
       margin: 0;
       padding-bottom: 20px;
       color: #333333;
@@ -478,7 +478,11 @@ body {
     }
     img {
       max-width: 100%;
+      padding-top: 10px;
       margin: 0 auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     figure {
       margin: 0;
