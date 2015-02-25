@@ -137,7 +137,7 @@ body {
 
 .content {
   width: 100%;
-  max-width: 720px;
+  max-width: 680px;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -359,7 +359,7 @@ body {
   margin-top: 10px;
   width: 100%;
   font-weight: 500;
-  font-family: "Merriweather", serif;
+  font-family: "museo-sans", "Source Sans Pro", sans-serif;
   color: #3A4145; }
   .post .post-content h1, .post .post-content h2, .post .post-content h3 {
     font-family: "museo-sans", "Source Sans Pro", sans-serif; }
