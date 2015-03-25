@@ -135,7 +135,7 @@ body {
 
 .content {
   width: 100%;
-  max-width: 680px;
+  max-width: 620px;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -144,9 +144,10 @@ body {
     .content {
       padding: 0 1rem; } }
   .content article {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    margin-top: 40px;
     padding-top: 20px;
-    border-bottom: 1px solid #aaaaaa; }
+    border-bottom: 1px solid rgba(170, 170, 170, 0.25); }
     .content article:last-child {
       border-bottom: 0px; }
     .content article .post-title {
@@ -165,7 +166,8 @@ body {
           color: #666666; }
     .content article .post-meta {
       font-size: 14px;
-      color: #b3b3b1; }
+      color: #b3b3b1;
+      padding-bottom: 1.2rem; }
       .content article .post-meta a {
         color: #b3b3b1;
         text-decoration: none; }
@@ -379,8 +381,8 @@ body {
   .post .post-content p {
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
-    line-height: 33px;
+    line-height: 1.75rem;
+    font-size: 1.0rem;
     margin: 0;
     padding-bottom: 20px;
     color: #141414;
@@ -445,9 +447,8 @@ body {
     margin: 0; }
     .post .post-content ul li, .post .post-content ol li {
       padding: 0;
+      line-height: 1.75rem;
       font-style: normal;
-      line-height: 1.8rem;
-      font-size: 1.1rem;
       margin-left: 30px;
       margin-bottom: 12px;
       padding-top: 2px; }

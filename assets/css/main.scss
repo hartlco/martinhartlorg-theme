@@ -167,7 +167,7 @@ body {
 
 .content {
   width: 100%;
-  max-width: 680px;
+  max-width: 620px;
   margin: 0 auto;
   @include box-sizing(border-box);
   @include respond-to(800) {
@@ -175,9 +175,10 @@ body {
   }
 
   article {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    margin-top:40px;
     padding-top:20px;
-    border-bottom: 1px solid #aaaaaa;
+    border-bottom: 1px solid rgba(170, 170, 170, 0.25);
     &:last-child {
       border-bottom: 0px;
     }
@@ -201,6 +202,7 @@ body {
     .post-meta {
       font-size: 14px;
       color: #b3b3b1;
+      padding-bottom: 1.2rem;
       a {
         color: #b3b3b1;
         text-decoration: none;
@@ -459,8 +461,8 @@ body {
     p {
       font-weight: 400;
       font-style: normal;
-      font-size: 18px;
-      line-height: 33px;
+      line-height: 1.75rem;
+      font-size: 1.0rem;
       margin: 0;
       padding-bottom: 20px;
       color: $textColor;
@@ -535,9 +537,8 @@ body {
       margin: 0;
       li {
         padding: 0;
+        line-height: 1.75rem;
         font-style: normal;
-        line-height: 1.8rem;
-        font-size: 1.1rem;
         margin-left: 30px;
         margin-bottom: 12px;
         padding-top: 2px;
