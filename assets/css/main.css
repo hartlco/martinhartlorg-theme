@@ -432,7 +432,7 @@ body {
     border: 0px solid #dddddd;
     border-top: 1px solid #dddddd; }
   .post .post-content blockquote {
-    margin: 0 0 30px;
+    margin: 0 0 10px;
     border: none; }
     .post .post-content blockquote p {
       letter-spacing: 0.01rem;
