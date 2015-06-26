@@ -43,7 +43,7 @@ Now, if you want to create a link post, just add `<!-- link[http://example.com] 
 
 Martin Hartl
 
-Copyright (c) 2015 Martin Hartl
+Copyright (c) 2014 - 2015 Martin Hartl
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
