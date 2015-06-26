@@ -1,9 +1,8 @@
-# martinhartl.org Ghost theme
+# NO LONGER MAINTAINED martinhartl.org Ghost theme
 
 **This is a fork of [Sven Read's](https://github.com/starburst1977) awesome [Readium](https://github.com/starburst1977/readium) theme!**
 
-Live at [martinhartl.org](http://martinhartl.org) on [Ghost 0.4.2](http://ghost.org)
-
+My own blog [martinhartl.org](http://martinhartl.org) no longer uses Ghost, so this repository will not be updated in the future.
 
 ## Linkposts
 
